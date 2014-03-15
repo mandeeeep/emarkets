@@ -1,0 +1,93 @@
+/* 
+    Document   : index
+    Created on : Sep 11, 2010, 11:51:07 PM
+    Author     : Mané
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background: white;
+    font : 8pt/160% 'Lucida Grande';
+}
+
+/* Form*/
+form{
+    margin:2px;
+}
+input,select,textarea,table tr td{
+    font: 11px/160% 'Lucida Grande',sans-serif;
+}
+
+div.wrapper{
+    position: relative;    
+    width: 900px;
+    height: auto;
+    margin: 0 auto;    
+}
+
+div.banner{
+    position: absolute;    
+    height: 170px;
+    width: 100%;
+    background-image: url(../images/banner.png);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    color: white;
+    font-variant: normal;
+    text-decoration: none;
+    border: 1px solid orange;
+}
+
+div.middle{
+    position: absolute;
+    border: 1px solid orange;
+    height: 50px;
+    top: 180px;
+    width: 100%;    
+}
+div.lbar{
+    position: absolute;
+    border: 1px solid orange;
+    top: 240px;
+    height: 380px;
+    width: 170px;    
+}
+
+div.home{
+    position: absolute;
+    border: 1px solid orange;
+    top: 240px;
+    width: 560px;
+    left: 180px;
+    height: 380px;
+}
+
+div.rbar{
+    position: absolute;
+    border: 1px solid orange;
+    top: 240px;
+    left: 750px;
+    height: 380px;
+    width: 150px;
+
+}
+
+div.footer{
+    position: absolute;    
+    top: 630px;
+    width : 100%;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;       
+    background-image: url(../images/footer.png);
+    font-family: 'Lucida Grande';
+    border: 1px solid orange;
+}
+li
+{
+    list-style-type: none;
+}
+
+
